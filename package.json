@@ -7,7 +7,7 @@
     "start": "plop"
   },
   "bin": {
-    "create-your-name-app": "./index.js"
+    "create-nuxt3-template": "./index.js"
   },
   "repository": "git@github.com:laoer536/create-nuxt3-template.git",
   "author": "laoer536 <1547698569@qq.com>",
