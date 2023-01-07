@@ -1,0 +1,10 @@
+module.exports = {
+  plugins: ['security-node'],
+  extends: [
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:security-node/recommended',
+    'plugin:anti-trojan-source/recommended',
+    'plugin:prettier/recommended',
+  ],
+  rules: {},
+}

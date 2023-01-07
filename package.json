@@ -1,13 +1,18 @@
 {
-  "name": "create-nuxt3-template",
+  "name": "create-nuxt-template",
   "version": "1.0.0",
-  "description": "create-nuxt3-template",
+  "description": "create-nuxt-template",
   "main": "index.js",
   "scripts": {
     "start": "plop"
   },
+  "files": [
+    "index.js",
+    "templates",
+    "plopfile.js"
+  ],
   "bin": {
-    "create-nuxt3-template": "./index.js"
+    "create-nuxt-template": "./index.js"
   },
   "repository": "git@github.com:laoer536/create-nuxt3-template.git",
   "author": "laoer536 <1547698569@qq.com>",

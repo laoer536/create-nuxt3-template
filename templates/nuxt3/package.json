@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --mode production",
+    "build:test": "nuxt build --mode test",
+    "dev": "nuxt dev --mode development",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .vue,.js,.ts --fix",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "addFile": "plop add"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.2.2",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@unocss/nuxt": "^0.46.5",
+    "@vueuse/core": "^9.6.0",
+    "@vueuse/nuxt": "^9.6.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-anti-trojan-source": "^1.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-security-node": "^1.1.1",
+    "minimist": "^1.2.7",
+    "nprogress": "^0.2.0",
+    "nuxt": "3.0.0",
+    "plop": "^3.1.1",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.2.0",
+    "sass": "^1.56.1",
+    "star-markdown-css": "^0.4.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.5",
+    "nuxt-security": "^0.9.0"
+  }
+}
