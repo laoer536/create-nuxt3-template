@@ -9,7 +9,8 @@ module.exports= (plop)=> {
             {
                 type: 'input',
                 name: 'fileName',
-                message: '请输入项目名称'
+                message: 'Set project name',
+                when:(res)=>res.nuxt3
             },
         ],
         actions: function (data) {
