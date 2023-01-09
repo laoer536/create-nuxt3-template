@@ -1,5 +1,6 @@
 module.exports= (plop)=> {
-    plop.setGenerator('test', {
+    plop.setGenerator('creat-nuxt-template', {
+        description:'This is a quick template program to create nuxt template.',
         prompts: [
             {
                 type: 'confirm',
