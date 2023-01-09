@@ -18,7 +18,7 @@ Plop.prepare({
     completion: argv.completion
 }, env =>
     Plop.execute(env, (env) => {
-        console.log(env)
+        // console.log(env)
         const options = {
             ...env,
             dest: process.cwd() // this will make the destination path to be based on the cwd when calling the wrapper
