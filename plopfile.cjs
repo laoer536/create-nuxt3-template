@@ -21,7 +21,8 @@ module.exports = (plop) => {
                     type: 'addMany',
                     destination: data.fileName,
                     base: `templates/nuxt3`,
-                    templateFiles: 'templates/nuxt3/**'
+                    templateFiles: 'templates/nuxt3/**',
+                    globOptions: { dot: true }
                 }, async function customAction(answers) {
                     let successMsg = `The {{fileName}} project is created, now you can see it at ${process.cwd()}/{{fileName}}.`;
                     // you can use plop.renderString to render templates
